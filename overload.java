@@ -13,9 +13,8 @@ class overloaddemo{
 }
 class overload 
 {
-    public static void main(String args[]){
-        
-        overloaddemo ob = new overloaddemo(5);
-        overloaddemo ob1 = new overloaddemo(5,7);
+    public static void main(String args[]){ 
+        new overloaddemo(5);
+        new overloaddemo(5,7);
     }
 }
